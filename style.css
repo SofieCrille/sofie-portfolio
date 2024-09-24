@@ -22,11 +22,6 @@ main {
     flex: 1;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-
 
 /* nav menu */
 
@@ -205,6 +200,10 @@ a {
 .headline2 {
     display: flex;
     justify-content:space-between;
+    width: 60vw;
+}
+.headline2 h2 {
+    width: 100%;
 }
 
 .varktojer li {
@@ -333,6 +332,9 @@ h2 {
     padding-top: 30px;
     gap: 30px;
     padding-left: 200px;
+    font-size: 13px;
+    padding-right: 20px;
+    
 }
 
 #proces {
@@ -344,10 +346,6 @@ h2 {
     padding-left: 30%;
 }
 
-.under-text3 {
-    width: 500px;
-    font-size: 15px;
-}
 
 
 /* footer */
@@ -443,6 +441,7 @@ h2 {
     .hamburger {
         display: block;
         cursor: pointer;
+        margin-right: 2rem;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -588,7 +587,8 @@ h2 {
 
         .varktojer {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 15vh;
         }
 
         .varktojer-top, .varktojer-bottom {
@@ -599,11 +599,6 @@ h2 {
             font-size: 22px;
             width: 80vw;
         }
-
-        .photo-1 {
-            margin-top: -100px;
-        }
-
         .navbar {
             margin-right: 0%;
         }
@@ -618,10 +613,7 @@ h2 {
         .footer {
             display: flex;
             flex-direction: column;
-        }
-
-        
-        
+        }    
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1300px) {
@@ -630,9 +622,6 @@ h2 {
         width: 250px;
     }
 
-    .under-text3 {
-        width: 80vw;
-    }
   }
 
 
@@ -752,42 +741,3 @@ h2 {
 .span {
     padding: 100px;
 }
-
-@media only screen and (max-width: 768px) {
-    .projekt-headline {
-        margin-left: 10vw;
-    }
-
-    .text-2 {
-        width: 80vw;
-    }
-
-    .projekt-photo img {
-        width: 80vw;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .projekt-photo3 img {
-        width: 80vw;
-    }
-
-    .projekt-photo3 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .span {
-        padding: 50px;
-    }
-    
-    .kat img, .zen img{
-        margin-right: 0;
-    }
-
-    .billede-tekst {
-        padding-bottom: 50px;
-    }
-}
-
