@@ -635,13 +635,13 @@ h2 {
             width: 80vw !important;
         }
 
-        .projekt2 a {
-            display: none;
-        }
-
         .under-text2 {
             width: 80vw;
         }
+
+        .projekt1:hover, .projekt2:hover, .projekt3:hover, .projekt4:hover{
+            box-shadow: none;
+    }
         
   }
 
