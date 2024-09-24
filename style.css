@@ -22,6 +22,11 @@ main {
     flex: 1;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 
 /* nav menu */
 
@@ -479,6 +484,7 @@ h2 {
         background-color: white;
         top: 0;
         padding-left: 0px;
+        padding-top: 25px;
     }
 
     #om-mig {
@@ -559,10 +565,6 @@ h2 {
         .under-text2 {
             width: 80vw;
         }
-
-        .headline2 h2 {
-            width: 200px;
-        }
         
         .headline2 {
              display: block; 
@@ -583,6 +585,42 @@ h2 {
         .under-text3 {
             width: 80vw;
         }
+
+        .varktojer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .varktojer-top, .varktojer-bottom {
+            margin-top: -100px;
+        }
+
+        .headline h2 {
+            font-size: 22px;
+            width: 80vw;
+        }
+
+        .photo-1 {
+            margin-top: -100px;
+        }
+
+        .navbar {
+            margin-right: 0%;
+        }
+    
+        .foot1, .foot2 {
+            margin-left: 0%;
+            margin-right: 0%;
+            padding-bottom: 50px;
+            padding-left: 40px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        
         
   }
 
