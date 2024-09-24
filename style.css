@@ -1,0 +1,745 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #F6F7F2;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+main {
+    flex: 1;
+}
+
+
+/* nav menu */
+
+.header {
+    position: fixed; 
+    z-index: 1000;
+    width: 100%; 
+    padding: 1rem 1.5rem;
+    top: 0;
+    padding-top: 50px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+    margin-right: 13%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-link{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+ul {
+list-style-type: none;
+}
+
+.nav-logo a {
+    list-style-type: none;
+    }
+
+.nav-logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 11.8%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+/* side info + side blank */
+
+
+.info1 {
+    margin-left: 10%;
+    font-size: 10px;
+}
+
+.side-info {
+    position: sticky;
+    top: 150px;
+    z-index: 10;
+    margin-left: 12%;
+    font-size: 12px;
+    float: left;
+    margin-top: 80px;
+}
+
+
+.stop-sticky {
+    position: absolute;
+    top: auto;
+}
+
+#side-info2 {
+    float: left;
+    font-size: 12px;
+    position: sticky;   
+    top: 150px;
+    margin-top: 200px;
+    left: 12%;
+}
+
+
+/* om mig sektion */
+
+#om-mig {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0%;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.headline h2 {
+    margin-top: 12rem;
+    width: 600px;
+}
+
+.link-github {
+    z-index: 1;
+    margin-top: 550px;
+    position: absolute;
+    font-size: 15px;
+    color:#222222;
+    font-weight: 500;
+}
+
+
+a {
+    color: #23282E;
+}
+
+.varktojskasse {
+    background: #E6E6DD;
+    margin-top: 50px;
+    padding: 70px;
+    padding-left: 30%;
+}
+
+.varktojer {
+    display: flex;
+    padding-right: 10%;
+    gap: 15vw;
+}
+
+.headline h2{
+    font-weight: 550;
+    color: #23282E;
+    line-height: 3rem;
+    font-size: 1.8rem;
+}
+
+.under-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4F5359;
+    line-height: 30px;
+    padding-top: 20px;
+    width: 600px;
+}
+
+.headline h3{
+    text-decoration: underline;
+    font-weight: 500;
+    color: #23282E;
+    font-size: 20px;
+}
+
+.headline2 {
+    display: flex;
+    justify-content:space-between;
+}
+
+.varktojer li {
+    list-style-type: none;
+    padding-bottom: 25px;
+}
+
+.varktojer-top, .varktojer-bottom {
+    font-weight: 550;
+    color: #23282E;
+    padding-top: 35px;
+}
+
+.design {
+    padding-bottom: 40px;
+}
+
+.udvikling {
+    padding-bottom: 40px;
+}
+/* photo section */
+
+.photo-1 img {
+    width:26vw;
+    height: auto;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.photo-1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    padding-top: 70px;
+    margin-left: 30%;
+}
+
+.img1 {
+    padding-top: 100px;
+}
+
+.img2 p {
+    width: 26vw;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+/* projekter sektion */
+
+#projekter {
+    margin-top: 100px;
+    padding-left: 30%;
+}
+
+#projekter a {
+    text-decoration: none;
+}
+
+.image img {
+    width:26vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.projekt1, .projekt2, .projekt3, .projekt4 {
+    padding: 2%;
+}
+
+.projekt1:hover, .projekt2:hover, .projekt3:hover, .projekt4:hover{
+        box-shadow: 0px 1px 12px rgba(3, 7, 18, 0.02),
+          0px 5px 48px rgba(3, 7, 18, 0.04),
+          0px 11px 108px rgba(3, 7, 18, 0.05),
+          0px 19px 191px rgba(3, 7, 18, 0.07),
+          0px 30px 299px rgba(3, 7, 18, 0.09);
+        border-radius: 10px;
+        padding: 2%;
+        transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.projekt2, .projekt4 {
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.under-text2 {
+    padding-bottom: 30px;
+    width: 400px;
+    color: #4F5359;
+    width: 25vw;
+}
+
+.over-text p {
+    font-size: 10px;
+}
+
+h2 {
+    font-weight: 550;
+    color: #23282E;
+    line-height: 45px;
+}
+
+.projekt1, .projekt2, .projekt3, .projekt4 {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Proces sektion */
+
+.flows {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 30px;
+    gap: 30px;
+    padding-left: 200px;
+}
+
+#proces {
+    margin-top: 150px;
+    background-color: #E6E6DD;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30%;
+}
+
+.under-text3 {
+    width: 500px;
+    font-size: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #F6F7F2;
+}
+
+.logo-footer {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.designed {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 50px;
+    width: 200px;
+}
+
+.kontakt {
+    font-size: 13px;
+    padding-bottom:40px;
+}
+
+.link-github2 a {
+    color: #F6F7F2;
+    font-size: 13px;
+}
+
+.foot1 {
+    margin-left: 11.8%;
+}
+
+.foot2 {
+    margin-right: 11.8%;
+}
+
+.link-file {
+    margin-left: 30%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* mediaqueries */
+
+
+.img1 {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 30%; 
+    right: 20%;  
+}
+
+.img-overlay img {
+    width: 30px;
+    height: 30px;
+    animation: rotate-star 3s linear infinite; 
+    transform-origin: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -110%;
+        top: 5rem;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+        background-color: #F6F7F2;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@keyframes rotate-star {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .side-info {
+        display: none;
+    }
+
+    #om-mig, .photo-1 {
+        margin-left: 10%;
+    }
+
+    .varktojskasse, #projekter, #proces {
+        padding-left: 10%;
+    }
+
+    .header {
+        background-color: white;
+        top: 0;
+        padding-left: 0px;
+    }
+
+    #om-mig {
+        width: 80vw;
+        margin-top: 100px;
+    }
+
+    .photo-1 img {
+        width: 80vw;
+            height: auto;
+            border-radius: 10px;
+            z-index: 0;
+        }
+        
+        .photo-1 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+
+        .img-overlay img {
+            width: 40px;
+            height: 40px;
+            animation: rotate-star 3s linear infinite; 
+            transform-origin: center;
+        }
+
+        .img2 p {
+            width: 80vw;
+            margin-bottom: 0;
+            padding-top: 20px;
+        }
+
+        .headline h2 {
+            margin-top: 70px;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        #side-info2 {
+            display: none;
+        }
+
+        .varktojskasse {
+            background: #E6E6DD;
+            margin-top: 70px;
+            padding: 50px;
+        }
+
+        .under-text {
+            font-size: 1rem;
+            line-height: 30px;
+            width: 80vw;
+        }
+
+        .image img {
+            width: 80vw;
+            display: flex;
+        }
+        
+        .photo-2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+         .projekt3 {
+            margin-top: 100px;
+        }
+
+        .under-text, .headline h2{
+            width: 80vw;
+        }
+
+        .over-text {
+            width: 80vw;
+        }
+
+        .under-text2 {
+            width: 80vw;
+        }
+
+        .headline2 h2 {
+            width: 200px;
+        }
+        
+        .headline2 {
+             display: block; 
+        }
+        
+        .flows {
+            padding-left: 0;
+        }
+        
+        .link-github {
+            display: none;
+        }
+
+        .foot1, .foot2 {
+            margin: 0 10% 0 10% ;
+        }
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1300px) {
+
+    .under-text2 {
+        width: 250px;
+    }
+  }
+
+
+/* projekt1 */
+
+.projekt-headline {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0%;
+    margin-left: 30%;
+}
+
+.website-gif1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.photo-web1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.photo-web1 img {
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 100px 0 100px 0;
+}
+
+.projekt-headline {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline4 {
+    padding-bottom: 30px;
+}
+
+.projekt-photo img {
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: black 0.3px solid;
+}
+
+.projekt-photo {
+    display: flex;
+    justify-content: end;
+}
+
+.projekt-beskrivelse {
+    width: 30vw;
+}
+
+.projekt-beskrivelse2 {
+    width: 30vw;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projekt-beskrivelse {
+    padding-bottom: 30px;
+    color: #23282E;
+}
+
+.projekt-photo2 img {
+    width: 50vw;
+    margin-bottom: 30px;
+}
+
+.tilbage img {
+    width: 30px;
+    height: auto;
+}
+
+.projekt-photo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.projekt-photo3 img {
+    border-radius: 10px;
+}
+
+.zen img{
+    width: 40vw;
+    margin-right: 100px;
+}
+
+.kul img {
+    width: 30vw;
+}
+
+.kat img {
+    width: 30vw;
+    margin-right: 100px;
+}
+
+.rent img {
+    width: 40vw;
+}
+
+.billede-tekst {
+    font-size: 11px;
+}
+
+span {
+    padding: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .projekt-headline {
+        margin-left: 10vw;
+    }
+
+    .text-2 {
+        width: 80vw;
+    }
+
+    .projekt-photo img {
+        width: 80vw;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projekt-photo3 img {
+        width: 80vw;
+    }
+
+    .projekt-photo3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    span {
+        padding: 50px;
+    }
+    
+    .kat img, .zen img{
+        margin-right: 0;
+    }
+
+    .billede-tekst {
+        padding-bottom: 50px;
+    }
+}
