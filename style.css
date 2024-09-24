@@ -537,6 +537,8 @@ h2 {
             font-size: 1rem;
             line-height: 30px;
             width: 80vw;
+            margin-left: 0;
+            padding: 0;
         }
 
         .image img {
@@ -561,9 +563,6 @@ h2 {
             width: 80vw;
         }
 
-        .under-text2 {
-            width: 80vw;
-        }
         
         .headline2 {
              display: block; 
@@ -624,7 +623,17 @@ h2 {
             margin-right: 0 !important;
         }
 
+        .projekt-headline {
+            margin: 60px !important;
+        }
 
+        .text-2 {
+            width: 80vw;
+        }
+
+        .projekt-photo img, .projekt-photo2 img {
+            width: 80vw !important;
+        }
 
   }
 
